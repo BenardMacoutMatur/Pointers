@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+//Write a program to print the address of a variable whose value is input from user.
+int main()
+{
+    int x;
+    cout<<"Enter the value of x: ";
+    cin>>x;
+    int *ptr= &x;
+    cout<<"Your value of x is "<<x<<" while the address of the variable is "<< *ptr *x;
+    cout<< *ptr *x<<endl;
+    return 0;
+}
